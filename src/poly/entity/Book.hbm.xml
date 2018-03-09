@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 9, 2018 2:26:55 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="poly.entity.Book" table="Sach">
+        <id name="MaSach" type="int">
+            <column name="MaSach" />
+            <generator class="assigned" />
+        </id>
+        <property name="TenSach" type="java.lang.String">
+            <column name="TenSach" />
+        </property>
+        <property name="Gia" type="int">
+            <column name="Gia" />
+        </property>
+        <property name="SoLuong" type="int">
+            <column name="SoLuong" />
+        </property>
+         <property name="MaTG" type="int">
+            <column name="MaTG" />
+        </property>
+    </class>
+</hibernate-mapping>

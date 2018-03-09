@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Mar 9, 2018 2:26:55 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="poly.entity.Author" table="TacGia">
+        <id name="MaTG" type="int">
+            <column name="MaTG" />
+            <generator class="assigned" />
+        </id>
+        <property name="TenTacGia" type="java.lang.String">
+            <column name="TenTacGia" />
+        </property>
+        <property name="DiaChi" type="java.lang.String">
+            <column name="DiaChi" />
+        </property>
+    </class>
+</hibernate-mapping>

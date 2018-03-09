@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 10, 2017 6:41:19 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="poly.entity.Customer" table="Customer">
+        <id name="Makh" type="java.lang.String">
+            <column name="Makh" length="50"/>
+            <generator class="assigned" />
+        </id>
+        <property name="Matkhau" type="java.lang.String">
+            <column name="Matkhau" length="50"/>
+        </property>
+        <property name="Hovaten" type="java.lang.String">
+            <column name="Hovaten" length="50"/>
+        </property>
+        <property name="Email" type="java.lang.String">
+            <column name="Email" length="50"/>
+        </property>
+        <property name="Dienthoai" type="java.lang.String">
+            <column name="Dienthoai" length="50"/>
+         </property>
+    </class>
+</hibernate-mapping>
